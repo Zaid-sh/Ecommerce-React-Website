@@ -2,8 +2,14 @@ import Header from './Header'
 import HomeMainSection from './HomeMainSection'
 import Footer from './Footer'
 
-<div>
- <Header />
- <HomeMainSection />
- <Footer />
-</div>
+function Homepage () {
+    return (
+        <div>
+            <Header />
+            <HomeMainSection />
+            <Footer />
+        </div>
+    );
+}
+
+export default Homepage;
