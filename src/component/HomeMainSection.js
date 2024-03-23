@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './HomeMainSection.css'
+import '../HomeMainSection.css'
 import reviews from '../data/reviews';
 
 
